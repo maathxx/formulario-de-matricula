@@ -12,7 +12,7 @@
     --text-primary: #292524;
     --text-secondary: #57534E;
     --text-tertiarty: #8F8881;
-    --text-hoghtlight: #E43A12;
+    --text-hightlight: #E43A12;
 
     --surface-primary: #FFFFFF;
     --surface-secondary: #FEE7D6;
@@ -24,4 +24,16 @@
 
  body {
     overflow: hidden;
+
+    font: var(--text);
+    color: var(--text-secondary);
+ }
+
+ h1, h2 {
+    color: var(--text-primary);
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
  }
