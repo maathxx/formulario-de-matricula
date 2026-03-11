@@ -24,7 +24,7 @@
 
     &:hover, &:has(input:focus) {
         border-width: 2px;
-        border-color: var(--stroke-hightlight);
+        border-color: var(--stroke-highlight);
         background-color: var(--surface-secondary);
        
         & p {
@@ -32,7 +32,7 @@
         }
 
         & svg path {
-            stroke: var(--stroke-hightlight);
+            stroke: var(--stroke-highlight);
         }
     }
 }
